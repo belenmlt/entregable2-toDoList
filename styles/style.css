@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    letter-spacing: inherit;
+    line-height:inherit
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+body {
+    line-height: 1;
+    background-color: #e7eff3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 4vw;
+    line-height: 2vw;
+    letter-spacing: 0.1vw;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+ 
+h1 {
+    font-size: 50px;
+    color: #984a59;
+    text-align: center;
+    font-weight: bold;
+    margin: 6vw;
+}
+
+h3 {
+    font-size: 20px;
+    color: #984a59;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 4vw;
+    line-height: 3vw;
+}
+
+.task-to-add-container {
+    display: flex;
+    justify-content: center;
+}
+
+.task-to-add {
+    background-color: #e7eff3;
+    text-align: center;
+    color: rgb(36, 36, 36);
+    font-size: 18px;
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+    min-height: 3vw;
+    min-width: 50vw;
+    padding: 0.5vw;
+    margin-bottom: 2vw;
+}
+
+::placeholder {
+    color: #984a59;
+    opacity: 1; 
+    font-size: 18px;    
+    border-bottom: 1px dotted rgb(36, 36, 36);
+}
+
+button {
+    background-color:  #e7eff3;
+}
+.fa-plus-circle {
+    padding: 0 0.5vw 1.5vw 0.5vw;
+    background-color: #e7eff3;
+}
+.fa-plus-circle:hover{
+    color: green;
+}
+
+.fa-trash {
+    padding: 0.5vw;
+    background-color: #e7eff3;
+}
+.fa-trash:hover{
+    color: #984a59;
+}
+
+.pending-tasks {
+    font-size: 18px;
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+}
+
+.tasks-list{
+
+}
+
+.each-task-container {
+    display: flex;
+}
+
+.each-task {
+    list-style: none;
+    border-bottom: 1px dotted rgb(36, 36, 36);
+    color: rgb(36, 36, 36);
+    min-width: 80vw;
+    padding: 0.5vw 0.5vw 0.5vw 10vw;
+    margin-bottom: 1.5vw;
+}
+
+.red-lines {
+    border-left: 1px solid #f37c6d;
+    border-right: 1px solid #f37c6d;
+    width: 2px;
+    float: left;
+    height: 60vw;
+    margin-left: 40px;
+}
+
+.checkbox {
+    height: 1.5vw;
+    width: 1.5vw;
+    margin-right: 1.5vw;    
+}
