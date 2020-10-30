@@ -1,14 +1,3 @@
-// OK input para introducir las tareas - html
-// OK detrás del input - botón de añadir tareas - html
-// OK que aparezcan las tareas que se añaden más abajo - js
-// OK detrás de la tarea añadida - botón de suprimir tareas  
-// OK checkbox delante de la tarea añadida - botón de tarea completada, icono se pone en verde
-
-// crear una función que recoja lo introducido en el input y lo meta en un contenedor más abajo
-// Compruebe si se ha escrito algo en el campo de tarea - si está vacío ALERT
-// Si validación OK --> función que añada lo del input más abajo
-// función que suprima la casilla (hide o remove) si le damos a la papelera
-   
 
 function getTask(){
     let htmlToAdd = document.querySelector(".tasks-list").innerHTML;
@@ -25,14 +14,10 @@ function getTask(){
         htmlToAdd += `</div>`;
     
     }
-
-    console.log(taskAdded);
   
     document.querySelector(".tasks-list").innerHTML = htmlToAdd;
-    console.log('HTML a añadir', htmlToAdd);
 
 }
-
 
 function removeFromView(){
     let allDeleteButtons = document.getElementsByClassName("delete-button");
